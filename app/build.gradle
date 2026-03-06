@@ -1,0 +1,6 @@
+dependencies {
+    // OkHttp for API calls (version 3.12.x is the last to support Android 4.4 - 6.0 officially)
+    implementation 'com.squareup.okhttp3:okhttp:3.12.13'
+    // Glide for loading the QR code image URL into the ImageView
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+}
